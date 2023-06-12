@@ -129,4 +129,12 @@ span {
   .social a {
     font-size: 18px;
   }
+   .images {
+    width: 35%;
+    right: 50px;
+  }
+
+  .images img {
+    max-height: 80%;
+  }
 }
