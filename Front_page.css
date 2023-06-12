@@ -138,3 +138,26 @@ span {
     max-height: 80%;
   }
 }
+
+@keyframes typing {
+  from {
+    width: 0;
+    border-right: none; /* Добавете това свойство */
+  }
+  to {
+    width: 100%;
+    border-right: none; /* Добавете това свойство */
+  }
+}
+
+
+h1.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  width: fit-content;
+  animation: typing 7s steps(4000, end) forwards;
+}
+
+
