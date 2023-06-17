@@ -1,1 +1,53 @@
-# Vikinasev.github.io
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Viktor_Nasev</title>
+		<link rel="stylesheet" href="Front_page.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link rel="icon" type="image/x-icon" href="images/logo1.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		
+	</head>
+	<body>
+		<section>
+			<div class="hero">
+				<nav>
+					<img src="images/logo.png" class="logo">
+					<ul>
+					<li><a href="Front_page.html">НАЧАЛО</a></li>
+					<li><a href="For_me.html">ЗА МЕН</a></li>
+					<li><a href="#">ПОРТФОЛИО</a></li>
+					<li><a href="#">ПРОЕКТИ</a></li>
+					<li><a href="#">КОНТАКТИ</a></li>
+					</ul>
+				</nav>
+			<div class="detel">
+				<h1 class="typing-animation"> Аз съм <span>Виктор Насев</span></h1>
+				<p class="typing-animation" > Това е официалният ми уебсайт за портфолио, за да покажа всичките ми произведения, 
+				<br>  свързани с уеб разработка</p>
+				<a href="CV.pdf" download>Свали CV</a>
+			</div>
+
+			<div class="images">
+				<img src="images/shape.png" class="shape">
+				<img src="images/Viktor.png" class="men">
+			</div>
+
+			</div>
+		</section>
+	</body>
+				<footer class="footer">
+			<div class="social-buttons">
+				<a href="https://www.instagram.com/viktornasev/" class="social-button social-button--instagram" aria-label="Instagram">
+				<i class="fab fa-instagram"></i></a>
+				<a href="https://www.facebook.com/profile.php?id=100009047842535" class="social-button social-button--facebook" aria-label="Facebook">
+					<i class="fab fa-facebook-f"></i></a>
+				<!--<a href="#" class="social-button social-button--linkedin" aria-label="LinkedIn">
+				<i class="fab fa-linkedin-in"></i></a>-->
+				<a href="https://github.com/Vikinasev" class="social-button social-button--github" aria-label="GitHub">
+				<i class="fab fa-github"></i></a>
+				
+			</div>
+			</footer>
+</html>
