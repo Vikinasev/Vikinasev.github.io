@@ -15,6 +15,14 @@ body {
   background: #eff4fd;
   position: relative;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
 
 nav {
   display: flex;
@@ -276,13 +284,6 @@ h1.typing-animation {
 .social-button--npmjs::after {
   background: #c12127;
 }
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
+
 
 
