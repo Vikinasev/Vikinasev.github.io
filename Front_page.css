@@ -271,16 +271,11 @@ h1.typing-animation {
   .detel p {
     font-size: 14px;
   }
-	nav {
-	width: 100%;
-	/* Други стилове за навигационното меню */
-	}
+	
   .social a {
     font-size: 18px;
   }
   .images {
-  width: 100%;
-  height: auto;
   position: absolute;
   bottom: 0;
   right: 100px;
