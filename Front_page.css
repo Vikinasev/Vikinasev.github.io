@@ -299,8 +299,8 @@ nav ul li {
   justify-content: center;
   align-items: center;
   outline: none;
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   text-decoration: none;
   border-radius: 100%;
   background: #fff;
