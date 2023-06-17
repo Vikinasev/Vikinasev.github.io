@@ -125,48 +125,6 @@ span {
   color: orange;
 }
 
-  @media only screen and (max-width: 600px) 
-  {
-    span {
-  color: #000000;
-}
-  .detel h1 {
-    font-size: 24px;
-  }
-
-  .detel p {
-    font-size: 14px;
-  }
-
-  .social a {
-    font-size: 18px;
-  }
-  .images {
-  width: 45%;
-  height: 40%;
-  position: absolute;
-  bottom: 0;
-  right: 100px;
-}
-
-  .images img {
-    max-height: 80%;
-  }
-  .social-button {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: none;
-  width: 128px;
-  height: 128px;
-  text-decoration: none;
-  border-radius: 100%;
-  background: #fff;
-  text-align: center;
-}
-}
-
 @keyframes typing {
   from {
     width: 0;
@@ -302,4 +260,45 @@ h1.typing-animation {
   background: #c12127;
 }
 
+ @media only screen and (max-width: 600px) 
+  {
+
+}
+  .detel h1 {
+    font-size: 24px;
+  }
+
+  .detel p {
+    font-size: 14px;
+  }
+	nav {
+	width: 100%;
+	/* Други стилове за навигационното меню */
+	}
+  .social a {
+    font-size: 18px;
+  }
+  .images {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+
+  .social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+}
+}
 
