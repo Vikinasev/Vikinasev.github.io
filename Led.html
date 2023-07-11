@@ -26,7 +26,7 @@
 			buttonState = !buttonState;
 
 			var message = new Paho.MQTT.Message(buttonState ? '1' : '0');
-			message.destinationName = 'status/led';
+			message.destinationName = 'control/led';
 			client.send(message);
 		}
 
@@ -47,7 +47,7 @@
 		function onConnect() {
 			document.getElementById("connstatus").innerHTML = "Mqtt Connected";
 			console.log("Mqtt Connected");
-			client.subscribe("status/led");
+			client.subscribe("control/led");
 			document.getElementById('mqttButton').addEventListener('click', toggleButtonState);
 		}
 
@@ -67,7 +67,7 @@
 			console.log("onMessageArrived: " + message.destinationName);
 			console.log("message.payloadString: " + message.payloadString);
 
-			if (message.destinationName === "status/led") {
+			if (message.destinationName === "control/led") {
 				var statusValue = message.payloadString;
 
 				if (statusValue === "0") {
